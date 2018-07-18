@@ -1,0 +1,33 @@
+{
+  "name": "jsstartkit",
+  "version": "1.0.0",
+  "description": "A Launch Pad for your Javascript Web Site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js --exec npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben A Eckenroed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.16.0",
+    "container-ioc": "^1.7.19",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.18.3",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "pug": "^2.0.3",
+    "redis": "^2.8.0",
+    "require-all": "^3.0.0",
+    "sequelize": "^4.38.0",
+    "socket.io": "^2.1.1",
+    "sqlite3": "^4.0.2",
+    "tedious": "^2.6.3"
+  }
+}
